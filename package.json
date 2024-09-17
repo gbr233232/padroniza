@@ -1,0 +1,28 @@
+{
+  "name": "padroniza",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@types/express": "^4.17.21",
+    "eslint": "^9.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "express": "^4.21.0",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.5.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
+    "eslint-plugin-import": "^2.30.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  
+  "scripts" : {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+  }
+}
